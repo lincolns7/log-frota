@@ -27,9 +27,9 @@ public class ManutencaoService {
         repository.create(manut);
         return("cadastrado com sucesso");
     }
-    
+
     public String delete(Integer id) {
         repository.delete(id);
-        return "Edeletado com sucesso";
+        return "Deletado com sucesso";
     }
 }
